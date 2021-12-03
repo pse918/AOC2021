@@ -1,6 +1,12 @@
 import fileReader.FileReader;
 
 public class Day1 {
+    public static void main(String[] args) {
+        Day1 day1 = new Day1();
+        day1.countIncreases(day1.depthsArray);
+        day1.countTriadIncreases();
+    }
+
     long[] triadSumsArray = new long[FileReader.processFile().length - 2];
     long[] depthsArray = stringArrayToLongArray(FileReader.processFile());
 
