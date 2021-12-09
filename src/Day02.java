@@ -1,8 +1,8 @@
-public class Day2 {
+public class Day02 {
     public static void main(String[] args) {
-        Day2 day2 = new Day2();
-        day2.part1();
-        day2.part2();
+        Day02 day02 = new Day02();
+        day02.part1();
+        day02.part2();
     }
 
     public void part1(){
